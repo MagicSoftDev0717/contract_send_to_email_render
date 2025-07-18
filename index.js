@@ -8,7 +8,7 @@ const express = require('express');
 const sgMail = require('@sendgrid/mail');
 const cors = require('cors');
 const dotenv = require('dotenv');
-Load environment variables
+
 dotenv.config();
 
 // Initialize SendGrid with API Key
