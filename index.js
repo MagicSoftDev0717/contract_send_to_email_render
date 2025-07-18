@@ -1,13 +1,13 @@
-// import express from "express";
-// import sgMail from "@sendgrid/mail";
-// import cors from "cors";
-// import dotenv from "dotenv"; // For loading .env variables
+import express from "express";
+import sgMail from "@sendgrid/mail";
+import cors from "cors";
+import dotenv from "dotenv"; // For loading .env variables
 
 
-const express = require('express');
-const sgMail = require('@sendgrid/mail');
-const cors = require('cors');
-const dotenv = require('dotenv');
+// const express = require('express');
+// const sgMail = require('@sendgrid/mail');
+// const cors = require('cors');
+// const dotenv = require('dotenv');
 // Load environment variables
 dotenv.config();
 
